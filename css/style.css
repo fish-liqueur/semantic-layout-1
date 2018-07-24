@@ -1,0 +1,166 @@
+body {
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-align: center;
+    min-width: 320px;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: auto;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 0 auto;
+}
+
+header {
+    background: url("../img/header-back.jpg") 50% 16% no-repeat;
+    background-size: cover;
+    height: 265px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 7px #f9ec08 solid;
+    display: flex;
+}
+
+p {
+    text-transform: none;
+    color: #fff !important;
+}
+
+button {
+    background-color: #f9ec08;
+    margin: 23px auto;
+    padding: 10px;
+    color: #000;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #f9ec08;
+    padding: 10px 0 10px 60px;
+    text-align: left;
+    font-size: 12px;
+    text-transform: none;
+}
+
+.gray-background {
+    background-color: #171c22;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.yellow-text {
+    color: #f9ec08;
+}
+
+.section-one > h2 > span:last-child {
+    font-size: 24px;
+}
+
+.fa-minus {
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+.section-one > p {
+    margin: 0 auto;
+
+}
+
+.section-two {
+    background: url("../img/section2.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    border-bottom: 7px #f9ec08 solid;
+}
+
+.section-two > div {
+    width: 21.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section-two i {
+    font-size: 32px;
+}
+
+
+.personal-data-text {
+    text-transform: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.section-four {
+    background: url("../img/selfie.jpg") 50% 18% no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+
+.aboutme {
+    width: 35%;
+    margin-left: 60%;
+}
+
+@media (max-width: 420px) {
+    h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    section  {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 649px) {
+    .section-two > div {
+        display: block;
+        width: 90%;
+        margin: 25px auto;
+    }
+
+}
+
+@media (max-width: 796px) {
+    .aboutme {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 796px) and (min-width: 650px) {
+    .section-two > div {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1093px) {
+    .register {
+        margin-left: 1px;
+    }
+    .shoot {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1093px) and (min-width: 797px) {
+    .section-two > div {
+        width: 32%;
+    }
+}
