@@ -14,7 +14,9 @@
     </head>
     <body>
         <header>
+            <i class="fas fa-search white-text" onclick="windowSwitching();"></i>
             <h1>Научитесь фотографировать!</h1>
+            <a href="#subscribe"><i class="fas fa-chevron-down yellow-text"></i></a>
         </header>
         <main>
             <section class="gray-background section-one white-text">
@@ -26,6 +28,7 @@
                 </button>
             </section>
             <section class="section-two yellow-text">
+                <a id="subscribe"></a>
                 <h2>Как это работает</h2>
                 <i class="fas fa-minus"></i><br>
                 <div class="register">
@@ -45,6 +48,7 @@
                 </div>  
             </section>
             <section class="gray-background">
+                
                 <h2 class="yellow-text">Подпишитесь прямо сейчас!</h2>
                 <i class="fas fa-minus yellow-text"></i><br> 
                 <form>
@@ -65,12 +69,22 @@
                     <h2 class="yellow-text">Обо мне</h2>
                     <i class="fas fa-minus yellow-text"></i><br>
                     <p>Меня зовут Вася Шторкин, и я могу научить фотографировать даже мертвого. И кривого, и косого, 
-                        и однорукого, и близорукого, и слепого, и тупого - короче, любого ребенка, старика, а также любую женщину и любого мужика!</p>
+                        и однорукого, и близорукого, и слепого, и тупого, и ребенка, и старика - короче, любого мудака.</p>
                 </div>   
             </section>
-            <footer>
-                    <i class="fas fa-copyright"></i> Иван Новак, изображения из Гугла
-            </footer>
         </main>
+        <section id="search-section" class="hide">
+            <form>
+                <i class="fas fa-window-close white-text" onclick="windowSwitching();"></i>
+                <input type="search" name="searchbox">
+                <button type="button" id="search-button">Найти</button>
+                <p id="search-error"></p>
+            </form>
+        </section>
+        <footer>
+            <i class="fas fa-copyright"></i> Иван Новак, изображения из Гугла
+        </footer>
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
     </body>
 </html>

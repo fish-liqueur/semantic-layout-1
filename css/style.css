@@ -8,6 +8,7 @@ body {
 h1 {
     margin: auto;
     font-size: 36px;
+    margin-top: 80px;
 }
 
 h2 {
@@ -22,7 +23,7 @@ header {
     text-align: center;
     color: #fff;
     border-bottom: 7px #f9ec08 solid;
-    display: flex;
+    display: block;
 }
 
 p {
@@ -50,6 +51,22 @@ footer {
     text-align: left;
     font-size: 12px;
     text-transform: none;
+}
+
+header > i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-search {
+    text-align: right;
+    padding: 10px 30px 0 0;
+    display: block;
+}
+
+.fa-chevron-down {
+    margin-top: 15px;
+    font-weight: 700;
 }
 
 .gray-background {
@@ -113,6 +130,45 @@ footer {
 .aboutme {
     width: 35%;
     margin-left: 60%;
+}
+
+#search-section {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.7);
+    padding: 0;
+    display: flex;
+}
+
+#search-section > form {
+    margin: auto;
+    background-color: #000;
+    padding: 36px;
+    position: relative;
+}
+
+#search-section > form > i {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 101;
+    cursor: pointer;
+}
+
+#search-section > form > button {
+    margin: 0;
+}
+
+.hide {
+    display: none !important;
+}
+
+#search-error {
+    display: none;
 }
 
 @media (max-width: 420px) {
