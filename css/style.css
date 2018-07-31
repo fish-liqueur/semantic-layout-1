@@ -113,6 +113,10 @@ header > i {
     font-size: 32px;
 }
 
+.personal-data {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .personal-data-text {
     text-transform: none;
